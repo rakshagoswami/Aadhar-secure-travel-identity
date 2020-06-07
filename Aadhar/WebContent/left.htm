@@ -1,0 +1,32 @@
+<html>
+<br>
+<body background='login.jpg' style='background-repeat : no-repeat'>
+<form method=post action='signin.jsp'>
+<font size=5 color=blue> <a href='registerc.jsp' target='main'> Citizen Register Here </a>
+<br>
+<br>
+<h3><font size="5" color="black" >Registered Users Login Here </font></h3>
+<table>
+<tr>
+<td><font size=6 color=blue>Select User</td>
+<td>
+
+<select style=height:30px; width:40px; font-size:35pt; name="utype" >
+
+<option  value="Admin">Admin</option>
+<option value="Aadhaar Staff">Aadhaar Staff</option>
+<option value="Citizen">Citizen</option>
+<option value="RTA">RTA</option>
+<option value="Crime">Crime</option>
+<option value="AAI">AAI</option></select>
+</td></tr>
+<tr>
+<td><font size=6 color=blue>User ID</td><td><input style=height:30px; font-size:25pt; type=text  name=uid ></td></tr>
+<tr>
+<td><font size=6 color=blue>Password</td><td><input style=height:30px; font-size:25pt; type=password name=pwd ></td></tr></table>
+<center><input type=submit value='Sign-In' size=5 >
+<input type=reset><br><br></center>
+&nbsp<img src='new_login.jpg' width=350 height=180>
+</form>
+</html>
+
